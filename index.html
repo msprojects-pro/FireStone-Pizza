@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireStone Pizza | Authentic Flavor, Fresh From the Oven</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PizzaRestaurant",
+        "name": "FireStone Pizza",
+        "image": "https://picsum.photos/seed/firestone-pizza/800/600",
+        "@id": "",
+        "url": "https://firestonepizza.com",
+        "telephone": "(407) 562-8841",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2135 Lakeview Boulevard",
+          "addressLocality": "Orlando",
+          "addressRegion": "FL",
+          "postalCode": "32803",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 28.5673,
+          "longitude": -81.3511
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday"],
+            "opens": "11:00",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Thursday",
+            "opens": "11:00",
+            "closes": "23:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday", "Saturday"],
+            "opens": "11:00",
+            "closes": "00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "12:00",
+            "closes": "21:00"
+          }
+        ],
+        "menu": "https://firestonepizza.com/menu",
+        "acceptsReservations": "True"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
